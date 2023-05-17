@@ -13,6 +13,9 @@ dependencies:
   react-native:
     specifier: 0.71.7
     version: 0.71.7(@babel/core@7.20.2)(@babel/preset-env@7.21.5)(react@18.2.0)
+  react-native-pytorch-core:
+    specifier: ^0.2.4
+    version: 0.2.4(react-native@0.71.7)(react@18.2.0)
 
 devDependencies:
   '@babel/core':
@@ -5630,6 +5633,16 @@ packages:
 
   /react-native-gradle-plugin@0.71.18:
     resolution: {integrity: sha512-7F6bD7B8Xsn3JllxcwHhFcsl9aHIig47+3eN4IHFNqfLhZr++3ElDrcqfMzugM+niWbaMi7bJ0kAkAL8eCpdWg==}
+    dev: false
+
+  /react-native-pytorch-core@0.2.4(react-native@0.71.7)(react@18.2.0):
+    resolution: {integrity: sha512-9t7RciHm/bSfPJsb95Hc2f/SDojSoQGb9hl6yDqCodrjoL1syTt56ZHc5KPEWR0COrqHqu0ZI/wF6MZKsUfeTw==}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+    dependencies:
+      react: 18.2.0
+      react-native: 0.71.7(@babel/core@7.20.2)(@babel/preset-env@7.21.5)(react@18.2.0)
     dev: false
 
   /react-native@0.71.7(@babel/core@7.20.2)(@babel/preset-env@7.21.5)(react@18.2.0):
